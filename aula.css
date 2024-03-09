@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+    background-image: url('https://ih1.redbubble.net/image.846321905.2071/flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg');
+height: 1000px;
+background-size: cover;
+background-position: center;
+
+}
+
+.fundo{
+
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+}
+
+
+body > div{
+    color: blue;
+    margin: 0%;
+    
+}
+
+div > div{
+    color: blueviolet;
+}
+h1{
+    color: blue;
+}
+
+
+div{
+    font-size: larger;
+}
+
+img.banner{
+    border:black;
+
+}
+
+.naosei{
+    transition: 0.5s;
+    border: black;
+}
+
+.sei{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+
+}
+
+.personagens{
+
+    background-color: rgba(0,0,0, 0.5);
+    color: aliceblue;
+
+}
+.naosei:hover{
+    height: 300px;
+    width: 300px;
+}
